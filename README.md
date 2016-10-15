@@ -33,20 +33,25 @@ punkty	ocena
 14 - 14.5	4.0
 15 - 15.5	4.5
 16	5.0
-############################################################################################################################################
+#######################################################################################################################################
 #
 Projekt ma być argumentem do uzyskania zaliczenia z przedmiotu.
 #
 Autor:
 Maciej Otłowski
+
 Uczelnia: 
 Politechnika Gdańska
+
 Wydział:
 Fizyki Technicznej I Matematyki Stosowanej
+
 Kierunek:
 Fizyka Techniczna; Informatyka Stosowana
+
 Rok:
 4 rok (dyplomowy)
+
 Przedmiot:
 Technologie Tworzenia Stron Internetowych - TTSI
  
