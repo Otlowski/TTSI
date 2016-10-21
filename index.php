@@ -8,7 +8,7 @@
         <!--HEADER-->
         <div id="header">  
             <div class="header-logo"><a href="/"class="header-logo__link">for<span style="color:#FFA17F;">FIT</span>er</a></div>
-            <div class="header-buttons">
+                <div class="header-buttons">
                 <button>Log In</button>
                 <button>Sign Up</button>
             </div>
@@ -19,7 +19,7 @@
                 <div class="banner"></div>
             </div>
             <div class="titles">
-            </div>
+            
             <div class="title">
                 <div class="title-content_1"></div>
             </div>
@@ -33,11 +33,12 @@
                 <div class="title-content_4"></div>
             </div>
             CONTAINERRRRRR
+            </div>
         </div>
         <!--FOOTER-->
-        <div id="footer">
+<!--        <div id="footer">
             FOOTER
-        </div>
+        </div>-->
     </body>
 </html>
 
