@@ -8,7 +8,7 @@
         <!--HEADER-->
         <div id="header">  
             <div class="header-logo"><a href="/"class="header-logo__link">for<span style="color:#FFA17F;">FIT</span>er</a></div>
-                <div class="header-buttons">
+            <div class="header-buttons">
                 <button>Log In</button>
                 <button>Sign Up</button>
             </div>
@@ -18,27 +18,57 @@
             <div class="bg--gradient">
                 <div class="banner"></div>
             </div>
-            <div class="titles">
-            
-            <div class="title">
-                <div class="title-content_1"></div>
-            </div>
-            <div class="title">
-                <div class="title-content_2"></div>
-            </div>
-            <div class="title">
-                <div class="title-content_3"></div>
-            </div>
-            <div class="title">
-                <div class="title-content_4"></div>
-            </div>
-            CONTAINERRRRRR
+            <div class="tiles">
+
+                <div class="tile">
+                    <div class="tile-content_1 mask">
+                        <div class="navigation">
+                            <h1>O klubie</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tile">
+                    <div class="tile-content_2 mask">
+                        <div class="navigation">
+                             <h1>Grafik</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile-content_3 mask">
+                        <div class="navigation">
+                             <h1>Oferta</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile-content_4 mask">
+                        <div class="navigation">
+                             <h1>Kadra</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile-content_5 mask">
+                        <div class="navigation">
+                             <h1>Galeria</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile-content_6 mask">
+                        <div class="navigation">
+                             <h1>Kontakt</h1>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--FOOTER-->
-<!--        <div id="footer">
-            FOOTER
-        </div>-->
+        <!--        <div id="footer">
+                    FOOTER
+                </div>-->
     </body>
 </html>
 
