@@ -6,8 +6,8 @@ $(document).ready(function(){
         $(".tiles").addClass("hide");
     });
      $("[data-toggle=tile2]").unbind("click").click(function(){
-        $(".tile").hide();
-        $(".tiles").addClass("hide");
+        $(".tiles").hide();
+        $(".club-content").removeClass("hidden");
     });
      $("[data-toggle=tile3]").unbind("click").click(function(){
         $(".tile").hide();
