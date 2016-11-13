@@ -45,8 +45,9 @@
 }
 
 /*SIZE OF CELL*/
-.cell, .cell-15, .cell-20, .cell-40{text-align: center;}
+.cell,.cell-5, .cell-15, .cell-20, .cell-40{text-align: center;}
 .cell{width: 100%;height: 50px;}
+.cell-5{width: 100%;height: 25px;}
 .cell-15{width: 100%;height: 75px;}
 .cell-20{width: 100%;height: 100px;}
 .cell-40{width: 100%;height: 225px;}

@@ -5,10 +5,10 @@
 `   <div class="dropdown">
     <div class="dropbtn"><h6>Select</h6></div>
             <div class="dropdown-content">
-              <a href="#"><div class="square open"></div>Open gym</a>
-              <a href="#"><div class="square crossfit"></div>Crossfit</a>
-              <a href="#"><div class="square yoga"></div>Yoga</a>
-              <a href="#"><div class="square streach"></div>Streatching</a>
+              <a  data-toggle="open-btn"><div class="square open"></div>Open gym</a>
+              <a  data-toggle="cross-btn"><div class="square crossfit"></div>Crossfit</a>
+              <a  data-toggle="yoga-btn"><div class="square yoga"></div>Yoga</a>
+              <a  data-toggle="streach-btn"><div class="square streach"></div>Streatching</a>
             </div>
     </div>
 
@@ -65,8 +65,8 @@
                                     <div class="crossfit cell"><h3>11.00-13.00<br>Crossfit</h3></div>
                                     <div class="crossfit cell"><h3>13.00-15.00<br>Crossfit</h3></div>
                                     <div class="open cell-20"><h3>15.00-19.00<br>Open gym</h3></div>
-                                    <div class="yoga cell-15"><h3>19.00-23.00<br>Yoga</h3></div>
-                                    <div class="streach cell"><h3>23.00-00.00<br>Streaching</h3></div>
+                                    <div class="yoga cell-15"><h3>19.00-22.00<br>Yoga</h3></div>
+                                    <div class="streach cell"><h3>22.00-00.00<br>Streaching</h3></div>
                                 </div>
                                 <div class="table-col">
                                      <div class="open cell"><h3>7.00-9.00<br>Open gym</h3></div>

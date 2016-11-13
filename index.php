@@ -14,6 +14,7 @@
     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
         <script src="assets/js/changeContentVC.js" type="text/javascript"></script>
+        <script src="assets/js/scheduleVC.js" type="text/javascript"></script>
     </head>
     <body>  
         <!--HEADER-->
