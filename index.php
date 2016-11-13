@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" type="text/css" href="assets/css/dropdown.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/table.css">
         <!--<link rel="stylesheet" type="text/css" href="css/main.css">-->
         
         <!--changeContent script-->
