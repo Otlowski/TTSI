@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" type="text/css" href="assets/css/dropdown.css">
         <link rel="stylesheet" type="text/css" href="assets/css/table.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/register.css">
         <!--<link rel="stylesheet" type="text/css" href="css/main.css">-->
         
         <!--changeContent script-->
@@ -21,17 +22,25 @@
         <div id="header">  
             <div class="header-logo"><a href="/"class="header-logo__link">for<span style="color:#FFA17F;">FIT</span>er</a></div>
             <div class="header-buttons">
-                <button><a>Log In</a></button>
-                <button>Sign Up</button>
+                <div class="login-button" data-toggle="log-in" >
+                    Log in
+                </div>
+                <div class="register-button" data-toggle="sign-up" >
+                    Sign Up
+                </div>
             </div>
         </div>
         <!--MAIN-->
-        <div id="container">
+        <!--<div id="container">-->
             <div class="bg--gradient">
-                <div class="banner"></div>
+                <!--<div class="register-form" style="display: none;">  </div>-->
+                <!--<div class="banner"></div>--> 
+            //<?php include 'tiles.php';?>
+            <?php // include 'klub.php';?>
+                <div class="login-form"><?php include 'login.php' ?></div>
             </div>
-            <?php include 'tiles.php';?>
-            <?php include 'klub.php';?>
+           
+        <!--</div>-->
     </body> 
 </html>
 

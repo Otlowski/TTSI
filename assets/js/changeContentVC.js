@@ -17,8 +17,20 @@ $(document).ready(function(){
         $(".tile").hide();
         $(".tiles").addClass("hide");
     });
-    console.log('CLICK!!!!!!');
-
+    
+    /*REGISTER FORM*/
+     $("[data-toggle=sign-up]").unbind("click").click(function(){
+          $(".banner").hide();
+          $(".register-form").show();
+        console.log('click sign up');
+    });
+     $("[data-toggle=log-in]").unbind("click").click(function(){
+          $(".banner").hide();
+          $(".register-form").hide();
+          $(".login-form").show();
+        console.log('click login');
+    });
+    console.log('CLICK aaa!!!!!!');
 });
 
 
