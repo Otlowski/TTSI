@@ -1,11 +1,5 @@
 <?php
 
-session_start();
-
-if(isset($_SESSION['usr_id'])) {
-    header("Location: index.php");
-}
-
 include_once 'dbConnect.php';
 
 //set validation error flag as false
@@ -47,7 +41,7 @@ if (isset($_POST['signup'])) {
 ?>
 <!--<div class="container">-->
     <!--<div class="row">-->
-        <!--<div class="register-form">-->
+        <div class="register-form">
         <form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="signupform">
             <fieldset class="account-info">
                 <label>
@@ -75,5 +69,6 @@ if (isset($_POST['signup'])) {
                 <input type="submit" name="signup" value="Sign Up" class="btn">
             </fieldset>
         </form>
+        </div>
         <span class="text-success"><?php if (isset($successmsg)) { echo $successmsg; } ?></span>
-            <span class="text-danger"><?php if (isset($errormsg)) { echo $errormsg; } ?></span>
+        <span class="text-danger"><?php if (isset($errormsg)) { echo $errormsg; } ?></span>

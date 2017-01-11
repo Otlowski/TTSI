@@ -86,6 +86,22 @@ body {
   margin-right: auto;
   padding: 0 15px;
 }
+.container-login{
+    height: 600px;
+  /*max-width: 1200px;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+      background: linear-gradient(to left, #FFA17F , #00223E);
+}
+.container-register{
+    height: 600px;
+  /*max-width: 1200px;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+      background: linear-gradient(to left, #FFA17F , #00223E);
+}
 table
 {
     border: 1px solid #999;

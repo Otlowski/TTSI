@@ -1,4 +1,4 @@
-<div class="club-content hidden">
+<div class="club-content" style="display:none">
 <!--    <div class="club-wrapper">-->
 <!--        <div class="dropdown-menu">-->
            

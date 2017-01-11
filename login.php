@@ -25,13 +25,13 @@ if (isset($_POST['login'])) {
     }
 }
 ?>
-<div class="container">
+<div class="container-login" style="display: none;">
     <div class="row">
-        <div class="register-form">
+        <div class="login-form">
         <form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="loginform">
             <fieldset class="account-info">
                  <label>
-                    Rmail
+                    Email
                     <input type="text" name="email" placeholder="Email" class="form-control" />
                         <span class="text-danger"></span>
                 </label>
@@ -43,8 +43,10 @@ if (isset($_POST['login'])) {
             </fieldset>
             <fieldset class="account-action">
                 <input type="submit" name="login" value="Log In" class="btn">
-                <span class="text-success"><?php if (isset($successmsg)) { echo $successmsg; } ?></span>
-                <span class="text-danger"><?php if (isset($errormsg)) { echo $errormsg; } ?></span>
+
             </fieldset> 
             
         </form>
+        </div>
+    </div>
+</div>
